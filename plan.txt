@@ -1,0 +1,18 @@
+Project Plan
+2 hours -> Setup data models and controllers.
+2 hours -> Setup frontend form (+2 hours in case of shifting to use React as a frontend framework).
+1 hour -> Setup upload module + send the module to the client.
+1 hour -> Render file and build rectangle selection in the browser client.
+4 hours -> Create toolbar to label the text/image in pdf.
+2 hours -> Create backend to manage labels information created by user. 
+4 hours -> Finalize Question Editor.
+
+Total estimated hours: 16-18 hours (2-3 days weekend; 3-5 days weekdays)
+
+Project Record
+TBD
+
+Possible Stacks:
+- React or Code Igniter+jQuery (Frontend).
+- CodeIgniter (Backend).
+- MySQL (Database)
