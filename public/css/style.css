@@ -53,6 +53,15 @@ h1, h2, h3, h4, h5 {
   justify-content: space-between;
 }
 
+#canvas-container {
+  position: relative;
+}
+
+#selector {
+  border: 1px dotted #000;
+  position: absolute;
+}
+
 .btn-app-style { 
   padding: .5em 2.5em;
   border-radius: 10em;

@@ -37,7 +37,11 @@ $routes->get('/files', 'Upload::index');
 $routes->get('/files/upload', 'Upload::upload');
 $routes->get('/files/editor/(:any)', 'Upload::editor');
 
-$routes->resource('api/tests', ['controller' => 'Tests']);
+// $routes->resource('api/tests', ['controller' => 'Tests']);
+
+$routes->group('api', function($routes) {
+	$routes->post('file/extract', 'Api\File::extract');
+});
 
 /**
  * --------------------------------------------------------------------
