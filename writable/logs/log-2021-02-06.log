@@ -1,0 +1,11 @@
+CRITICAL - 2021-02-06 05:17:37 --> Unable to connect to the database.
+#0 /Users/faridtanjung/phpspace/smartjen-test/system/Database/BaseConnection.php(646): CodeIgniter\Database\BaseConnection->initialize()
+#1 /Users/faridtanjung/phpspace/smartjen-test/system/Database/BaseBuilder.php(1860): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 /Users/faridtanjung/phpspace/smartjen-test/system/Model.php(462): CodeIgniter\Database\BaseBuilder->get()
+#3 /Users/faridtanjung/phpspace/smartjen-test/app/Controllers/Tests.php(13): CodeIgniter\Model->findAll()
+#4 /Users/faridtanjung/phpspace/smartjen-test/system/CodeIgniter.php(918): App\Controllers\Tests->index()
+#5 /Users/faridtanjung/phpspace/smartjen-test/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Tests))
+#6 /Users/faridtanjung/phpspace/smartjen-test/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /Users/faridtanjung/phpspace/smartjen-test/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 /Users/faridtanjung/phpspace/smartjen-test/system/Commands/Server/rewrite.php(34): require_once('/Users/faridtan...')
+#9 {main}
